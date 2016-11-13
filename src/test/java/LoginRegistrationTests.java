@@ -22,7 +22,7 @@ public class LoginRegistrationTests extends BaseTest {
     }
 
     /**
-     * Check the correctness of displaying error message on submit with different filled parameters in form
+     * Check the correctness of displaying error message on submit with different filled parameters in form.
      */
     @Test(dataProvider = "errorMessages")
     public void errorMessageOnFormSubmit(String firstName, String lastName, String email, String password, String errorMessage) {
